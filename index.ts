@@ -1,5 +1,5 @@
-import * as _ from 'lodash';
-
-async function hello() {
-  return 'world';
+function pow(x: number, y: number) {
+  return x ** y;
 }
+
+pow(3, 2);

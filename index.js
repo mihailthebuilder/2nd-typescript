@@ -1,4 +1,4 @@
-async function hello() {
-    return 'world';
+function pow(x, y) {
+    return x ** y;
 }
-export {};
+pow(3, 2);
