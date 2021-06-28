@@ -1,4 +1,5 @@
-console.log('hello world');
-console.log('hery');
+import * as _ from 'lodash';
 
-const x = { x: 1, el: 2 };
+async function hello() {
+  return 'world';
+}

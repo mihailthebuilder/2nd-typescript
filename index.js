@@ -1,4 +1,4 @@
-async () => {
-    console.log("hello world");
-    console.log("hery");
-};
+async function hello() {
+    return 'world';
+}
+export {};
